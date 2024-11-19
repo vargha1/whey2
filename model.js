@@ -62,10 +62,6 @@ renderer.shadowMap.enabled = true;
 // renderer.outputColorSpace = T.SRGBColorSpace
 renderer.domElement.classList.add("absolute")
 
-var click = new Audio('Sounds/click.mp3');
-var whoosh = new Audio("Sounds/whoosh.mp3")
-var ding = new Audio("Sounds/ding.mp3")
-const audio = document.querySelector("audio");
 const darkMaterial = new T.MeshBasicMaterial({ color: 'black' });
 const materials = {};
 
